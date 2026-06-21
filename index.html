@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Circular Knitting Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>🧶 Circular Knitting Calculator</h1>
+
+  <label>Gauge</label>
+  <input type="number" id="gauge">
+
+  <label>Diameter</label>
+  <input type="number" id="dia">
+
+  <label>Yarn Count</label>
+  <input type="number" id="count">
+
+  <label>Stitch Length</label>
+  <input type="number" id="stitch">
+
+  <label>Fabric Weight (Kg)</label>
+  <input type="number" id="kg">
+
+  <button onclick="calculate()">Calculate</button>
+
+  <div class="result">
+    <p>Needles: <span id="needles"></span></p>
+    <p>Feeders: <span id="feeders"></span></p>
+    <p>Counter: <span id="counter"></span></p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
